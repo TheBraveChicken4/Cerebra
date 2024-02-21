@@ -1,0 +1,1 @@
+This project is for the UNCC Charlotte AI Research organization. It is for the purpose of automating tasks in discord such as answering basic questions about the club, meeting times, announcements etc. 
