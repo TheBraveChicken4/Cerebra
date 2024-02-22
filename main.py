@@ -42,5 +42,8 @@ async def on_message(message):
     if message.content.startswith('!When do we meet?'):   
         await message.channel.send('We meet every other Monday from 7-8pm. Our meeting schedule is on our website.')
 
+    if message.content == "raise-exception":
+        raise discord.DiscordException
+
 
 client.run(TOKEN)
